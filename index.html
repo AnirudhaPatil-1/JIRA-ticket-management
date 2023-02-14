@@ -30,7 +30,17 @@
     </div>
     <!-- MAIN CONTAINER -->
 <div class="main-cont">
-    
+        <div class="ticket-cont">
+            <div class="ticket-color ${ticketColor}"></div>
+            <div class="ticket-id">#${ticketID}</div>
+            <div class="task-area">${ticketTask} </div>
+            <div class="ticket-lock">
+                <i class="fa-duotone fa-lock"></i>
+                <!-- <i class="fa-solid fa-lock"></i> -->
+                
+                
+            </div>
+        </div>
 </div>
 
 <div class="modal-cont">
@@ -43,6 +53,7 @@
         <div class="black priority-color border"></div>
     </div>
 </div>
+<script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>

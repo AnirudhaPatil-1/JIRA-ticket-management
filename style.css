@@ -102,17 +102,19 @@ body{
     /* background-color: lightpink; */
 }
 .border{
-    border: 5px solid #ecf0f1;
+    border:7px solid slategrey;
+    border-style: inset;
+    
 }
 .ticket-cont{
-    height: 25vh;
+    height: 30vh;
     width: 18vw;
     background-color: #dfe6e9 ;
     margin: 1%;
 }
 .ticket-color{
     height:10%;
-    background-color: lightpink;
+    /* background-color: lightpink; */
 }
 .ticket-id{
     height: 15%;
@@ -120,9 +122,23 @@ body{
     padding: 1%;
 }
 .task-area{
-    height: calc((100% - 25%));
+    height: calc((100% - 40%));
     background-color: #dfe6e9;
     padding: 5%;
+    outline: none;
+}
+.ticket-lock{
+    height: 15%;
+    /* background-color: lightblue; */
+    font-size: 150%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5%;
+    color: #9ba1a4;
+    /* color: #2d3436; */
+    /* color: #636e72; */
+
 }
 .main-cont{
     display: flex;
