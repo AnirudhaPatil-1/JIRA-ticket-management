@@ -25,6 +25,8 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center; 
+    /* padding: 1rem 0 1rem 0; */
+    
 }
 .action-btn-cont{
     height: 3.5rem;
@@ -41,12 +43,21 @@ body{
     font-size: 2rem;  
     color: #dcdde1;
 }
-.add-btn:hover, .remove-btn:hover{
+.add-btn:hover, .remove-btn:hover, .remove-button-active{
     /* background-color: #485460 ; */
     background-color: whitesmoke;
     cursor: pointer;
     color: #3d3d3d;
     opacity: 0.5;
+}
+.remove-button-active{
+    /* background-color: #485460 ; */
+    /* background-color: whitesmoke; */
+    /* background-color: #eb2f06; */
+    background-color: red;
+    cursor: pointer;
+    color: #3d3d3d;
+    /* opacity: 0.5; */
 }
 /* .remove-btn:hover{
     background-color: #485460;
@@ -62,6 +73,7 @@ body{
     background-color: pink;
     cursor: pointer;
     border-radius: 5%;
+    
 
 }
 .lightblue{

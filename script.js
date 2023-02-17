@@ -16,6 +16,8 @@ let removeFlag = false;
 let lockClass = "fa-lock";
 let unlockClass = "fa-lock-open";
 
+let removeButtonActive = false;
+
 
 // toolBoxColors.forEach((ToolBoxColor) => {
 //     ToolBoxColor.addEventListener("click", (e) => {
@@ -95,6 +97,13 @@ addBtn.addEventListener("click", (e) => {
 })
 
 removeBtn.addEventListener("click", (e) => {
+    removeButtonActive = !removeButtonActive
+    if(removeButtonActive == true){
+        removeBtn.classList.add("remove-button-active");
+    }else{
+        removeBtn.classList.remove("remove-button-active");
+    }
+    
     removeFlag = !removeFlag;
 })
 
@@ -120,6 +129,13 @@ function createTicket(ticketColor, ticketTask, ticketID){
                 <i class="fa-solid fa-lock"></i>
             </div>
     `;
+    // if(ticketTask == ""){
+    //     alert("Please enter text:");
+
+    // }
+    // else{
+    //     mainCont.appendChild(ticketCont);
+    // }
     mainCont.appendChild(ticketCont);
 
     //Create object of ticket and add to array
