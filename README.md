@@ -1,13 +1,12 @@
 # JIRA-ticket-management
 Feb 2023 - Feb 2023
 
-Project hosted on :
-
-
+Hosted link : https://tinyurl.com/JIRA-Ticket-management
+GitHub link: https: https://github.com/AnirudhaPatil-1/JIRA-ticket-management
 
 Tech Stack: HTML, CSS and JavaScript
 
-GitHub Link: https://github.com/AnirudhaPatil-1/JIRA-ticket-management-
+
 
 Project Details:
 
