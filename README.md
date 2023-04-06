@@ -1,18 +1,17 @@
 # JIRA-ticket-management
 Feb 2023 - Feb 2023
 
-Hosted link : https://tinyurl.com/JIRA-Ticket-management
-GitHub link: https: https://github.com/AnirudhaPatil-1/JIRA-ticket-management
+Hosted link: https://tinyurl.com/JIRA-Ticket-management
+GitHub link: https://github.com/AnirudhaPatil-1/JIRA-ticket-management
 
 Tech Stack: HTML, CSS and JavaScript
-
-
 
 Project Details:
 
 The Jira Ticket Management Clone is a web-based application built using HTML, CSS, and JavaScript. The project allows users to create tickets with unique IDs and manage them easily. It includes features like priority color setting, lock-unlock options for content editing, color editing, filtering tickets based on priority colors, ticket deletion, and browser local storage for ticket saving.
 
 Features:
+
 1. Users can add tickets with a unique id and easily manage them.
 2. Users can set priority colors for the tickets.
 3. Tickets have a lock-unlock feature to make the content editable.
