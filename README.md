@@ -3,7 +3,7 @@ Feb 2023 - Feb 2023
 
 Hosted link: https://anirudhapatil-1.github.io/JIRA-ticket-management/
 
-GitHub Link: 
+GitHub Link: https://tinyurl.com/2f7427cc
 
 Tech Stack: HTML, CSS and JavaScript
 
