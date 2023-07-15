@@ -1,6 +1,8 @@
 # JIRA-ticket-management
 _**(Feb 2023 - Feb 2023)**_
 
+![jira project](https://github.com/AnirudhaPatil-1/JIRA-ticket-management/assets/73242321/8d576e2b-c424-4f39-9274-de84c9b2c9db)
+
 Hosted Link: [JIRA Ticket Management](https://anirudhapatil-1.github.io/JIRA-ticket-management/)
 
 GitHub Link: [JIRA Ticket Management](http://lnkiy.in/JIRA_ticket_management)
